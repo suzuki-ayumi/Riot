@@ -1,0 +1,19 @@
+{
+  "name": "ri",
+  "version": "1.0.0",
+  "description": "Riot++ ====",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzuki-ayumi/Riot.git"
+  },
+  "author": "ayussy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzuki-ayumi/Riot/issues"
+  },
+  "homepage": "https://github.com/suzuki-ayumi/Riot#readme"
+}
