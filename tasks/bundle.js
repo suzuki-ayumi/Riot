@@ -51,7 +51,7 @@ var config = {
 
 var tasks = { config: config };
 
-task.js = function() {
+tasks.js = function() {
   gulp.src(config.js.src)
     .pipe(plumber())
     .pipe(webpack(config.js.webpack))
@@ -59,7 +59,7 @@ task.js = function() {
     .pipe(gulp.dest(config.js.dest));
 };
 
-task.css = function() {
+tasks.css = function() {
   gulp.src(config.css.src)
     .pipe(plumber())
     .pipe(less())
@@ -68,4 +68,4 @@ task.css = function() {
     .pipe(gulp.dest(config.css.dest));
 };
 
-exports default tasks;
+module.exports = tasks;

@@ -1,0 +1,94 @@
+@import "./normalize.less";
+@import "./variable.less";
+@import "./mixin.less";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 960px;
+  height: 100%;
+  color: @gcDark;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+a {
+  /* color: @gcSky; */
+  text-decoration: none;
+/*   &:hover { text-decoration: underline; } */
+/*   &:visited { color: @gcSky; } */
+/*   &:active { color: @gcSky; } */
+}
+
+.wrapper {
+  position: relative;
+  min-width: 960px;
+  height: 100%;
+}
+
+.globalLeftPanel {
+  position: absolute;
+  top: 48px;
+  bottom: 0;
+  left: 0;
+  width: 240px;
+  box-shadow: rgba(0, 0, 0, .1) 1px 0 4px 0;
+  background-color: #3E7C92;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 200;
+}
+
+.globalRightPane {
+  position: absolute;
+  top: 48px;
+  bottom: 0;
+  left: 240px;
+  right: 0;
+  background-color: @gcSand;
+}
+
+// @import "./components/global-header.less";
+// @import "./components/global-right-pane.less";
+// @import "./components/article-search-container.less";
+// @import "./components/article-search-container-inner-index.less";
+// @import "./components/article-search-container-inner-recently-knowledge.less";
+// @import "./components/article-search-container-inner-recently-question.less";
+// @import "./components/baloon-element.less";
+// @import "./components/demand-writer.less";
+// @import "./components/edit-user-container.less";
+// @import "./components/popup-menu-element.less";
+// @import "./components/article-card.less";
+// @import "./components/create-question-container.less";
+// @import "./components/create-knowledge-container.less";
+// @import "./components/show-question-container.less";
+// @import "./components/show-knowledge-container.less";
+// @import "./components/article-detail-card.less";
+// @import "./components/division-card.less";
+// @import "./components/division-detail-container.less";
+// @import "./components/article-comment-card.less";
+// @import "./components/article-comment-adder.less";
+// @import "./components/paginationer.less";
+// @import "./components/tag-selector-card.less";
+// @import "./components/tag-element.less";
+// @import "./components/button-element.less";
+// @import "./components/show-user-container.less";
+// @import "./components/show-error-container.less";
+// @import "./components/submit-box.less";
+// @import "./components/text-inputer-card.less";
+// @import "./components/thumbnail-selector-card.less";
+// @import "./components/to-home-button.less";
+// @import "./components/to-mypage-button.less";
+// @import "./components/openable-demands-showcase.less";
+// @import "./components/report-modal-dialog.less";
+// @import "./components/delete-modal-dialog.less";
+// @import "./components/demand-card.less";
+// @import "./components/recently-demands-showcase.less";
+// @import "./components/notification-detail-container.less";
+// @import "./components/notification-button.less";

@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/suzuki-ayumi/Riot/issues"
   },
-  "homepage": "https://github.com/suzuki-ayumi/Riot#readme"
+  "homepage": "https://github.com/suzuki-ayumi/Riot#readme",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "body-parser": "^1.14.1",
+    "browserify": "^12.0.1",
+    "express": "^4.13.3",
+    "node-dev": "^2.6.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "marked": "^0.3.5",
+    "react-dom": "^0.14.3"
+  }
 }

@@ -1,0 +1,46 @@
+{
+  "image": {
+    "loading": "./images/loading.gif"
+  },
+
+  "userThumbnails": [
+    "./images/icon_default.png",
+    "./images/user-thumb01.png",
+    "./images/user-thumb02.png",
+    "./images/user-thumb03.png",
+    "./images/user-thumb04.png",
+    "./images/user-thumb05.png",
+    "./images/user-thumb06.png",
+    "./images/user-thumb07.png",
+    "./images/user-thumb08.png",
+    "./images/user-thumb09.png",
+    "./images/user-thumb10.png",
+    "./images/user-thumb11.png",
+    "./images/user-thumb12.png",
+    "./images/user-thumb13.png",
+    "./images/user-thumb14.png",
+    "./images/user-thumb15.png",
+    "./images/user-thumb16.png",
+    "./images/user-thumb17.png",
+    "./images/user-thumb18.png",
+    "./images/user-thumb19.png",
+    "./images/user-thumb20.png"
+  ],
+
+  "secretUserThumbnails": [
+    "./images/secret-user-thumb-asai.png",
+    "./images/secret-user-thumb-john.png",
+    "./images/secret-user-thumb-nishimiya.png",
+    "./images/secret-user-thumb-oshikawa.png",
+    "./images/secret-user-thumb-suga.png",
+    "./images/secret-user-thumb-suzuki.png",
+    "./images/secret-user-thumb-tatsumi.png"
+  ],
+
+  "divisionThumbnails": [
+    "./images/division-thumb1.png",
+    "./images/division-thumb2.png",
+    "./images/division-thumb3.png",
+    "./images/division-thumb4.png"
+  ]
+}

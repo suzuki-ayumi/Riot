@@ -25,7 +25,7 @@ gulp.task('default', ['build']);
 
 // Run server and watch file changes
 gulp.task('watch', ['bundle'], function() {
-  gulp.watch(bundleTask.config.js.watch,  ['bundle-js',  browserSync.reload]);
+  gulp.watch(bundleTask.config.zjs.watch,  ['bundle-js',  browserSync.reload]);
   gulp.watch(bundleTask.config.css.watch, ['bundle-css', browserSync.reload]);
 
   browserSync({
